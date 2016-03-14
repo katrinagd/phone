@@ -299,3 +299,34 @@ span.line.filled:before{ color:#6fce3c; content:"\F068";}
 		margin-left: 250px;
 	}
 }
+
+/* Small devices (phones less than 768px) */
+
+@media (max-width: 768px) {
+
+	.item img {
+		width: 100%;
+		height: auto;
+		max-width: 350px;
+	}
+
+	.specs img {
+		width: 100%;
+		height: auto;
+		max-width: 350px;
+	}
+
+	.phone-spec {
+		margin-top: -108px;
+		margin: 0 auto;
+	}	
+
+	.tile-box {
+		display: none;
+	}	
+
+	.video {
+		padding: 10px;
+		margin: 0;
+	}
+}
